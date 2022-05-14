@@ -1,0 +1,149 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+    background-color: #1F2937;
+    color: white;
+    height: 400px;
+    margin: 0;
+}
+.headerLogo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.hUp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+.hDown{
+    display: flex;
+    flex: 1;
+    gap: 80px;
+}
+.image{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.hText{
+    flex: 1;
+}
+.title{
+    font-size: 48px;
+    font-weight: 900;
+    flex-wrap: wrap;
+}
+.subtitle{
+    font-size: 24px;
+    color: #E5E7EB;
+}
+button{
+    background-color: #3882F6;
+    border-radius: 8px;
+    height: 40px;
+    width: 110px;
+    color: white;
+}
+/*-------------------------------------*/
+.frame{
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+}
+.main  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.kockice{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.info{
+    font-size: 36px;
+    font-weight: 900;
+}
+.celina{
+    width: 150px;
+    text-align: center;
+}
+/*--------------------------------*/
+.quote{
+    background-color: #E5E7EB;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    padding-left: 600px;
+    padding-right: 600px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.qText{
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0;
+}
+.qAuthor{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+    margin: 0;
+}
+/*----------------------------*/
+.BluePart{
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.BigBtext{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.BlueButton{
+    border-style: solid;
+    border-color: white;
+    font-weight: bold;
+}
+/*-------------------------------*/
+.footer{
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0;
+}
